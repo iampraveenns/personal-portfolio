@@ -1,13 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+  <link rel="stylesheet" href="./src/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praveen's Portfolio</title>
+</head>
+
+<body>
+
+  <video autoplay muted loop playsinline speed-0.5s id="bg-video">
+    <source src="./src/assets/background-vid.mp4" type="video/mp4">
+  </video>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    document.getElementById('bg-video').playbackRate = 0.5;
+  </script>
+</body>
+
 </html>
