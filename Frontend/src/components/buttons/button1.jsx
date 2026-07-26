@@ -3,6 +3,7 @@ import confetti from 'canvas-confetti';
 
 const Button = () => {
   const handleClick = () => {
+    // confetti burst
     const duration = 5 * 1000;
     const animationEnd = Date.now() + duration;
     const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
@@ -29,6 +30,14 @@ const Button = () => {
         origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
       });
     }, 250);
+
+    // trigger resume download
+    const link = document.createElement('a');
+    link.href = '/Resume.pdf';
+    link.download = 'Praveen_S_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
