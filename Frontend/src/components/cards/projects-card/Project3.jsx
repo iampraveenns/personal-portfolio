@@ -17,16 +17,15 @@ export function Component() {
   return (
     <Card className="relative w-[350px] h-auto overflow-hidden hover:cursor-auto hover:scale-[102%] transition-all duration-[1s]">
       <CardHeader>
-        <CardTitle>X-Clone Application</CardTitle>
+        <CardTitle>BookHive E-Commerce Platform</CardTitle>
         <CardDescription>
-          •	Developed a full-stack social media application using React.js, Node.js, Express.js, and MongoDB
+          🔹 LocalStorage — for persisting cart data and user state across sessions without a backend
           <br /><br />
-          •	Built JWT-based auth system with protected routes, refresh token handling, and bcrypt password hashing
+          🔹 Page Navigation & Routing — handling multi-page links (Home, Books, About, Contact, Cart, Login) for a seamless user flow
           <br /><br />
-          •	Built 8 RESTful API endpoints for full CRUD operations, secured with JWT middleware
+          🔹 DOM Manipulation — dynamically rendering books, categories, and cart updates
           <br /><br />
-          •	Integrated TanStack Query for efficient data fetching and state management
-
+          🔹 Event Handling — building interactive features like add-to-cart and category filters
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -48,10 +47,10 @@ export function Component() {
         </form> */}
       </CardContent>
       <CardFooter className="flex justify-between">
-        <a href="https://xclonne.netlify.app/">
+        <a href="https://bookhiveweb.netlify.app/">
           <Button variant="outline">Live Demo</Button>
         </a>
-        <a href="https://github.com/iampraveenns/X-Clone">
+        <a href="https://github.com/iampraveenns/BookHive">
           <Button>GitHub</Button>
         </a>
       </CardFooter>

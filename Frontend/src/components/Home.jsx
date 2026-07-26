@@ -9,7 +9,7 @@ import MediaButtons from './buttons/mediabtn'
 const Home = () => {
     return (
         <section id='home'>
-            <div className='flex flex-row gap-10 justify-center mx-auto items-center mt-30 p-10 w-[90%] lg:w-[50%]'>
+            <div className='flex flex-row gap-10 justify-center space-ar mx-auto items-center mt-30 p-10 w-[80%] lg:w-[80%]'>
                 <div className='m-10 '>
                     <p className='font-bold pl-1 m-2'>Hi, i'm</p>
                     <h1 className='text-5xl font-bold m-2'>Praveen S</h1>
@@ -31,11 +31,11 @@ const Home = () => {
                         <Button1 />
                         <Button2 />
                     </div>
-                    <div className='mt-5 mr-20'>
+                    <div className='mt-5 ml-[-20px] lg:ml-[-630px]'>
                         <MediaButtons />
                     </div>
                 </div>
-                <div className="scale-130">
+                <div className="sm:scale-130 lg:scale-150">
                     <ProfileCard />
                 </div>
             </div>
