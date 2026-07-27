@@ -22,15 +22,15 @@ const Contact = () => {
 
         emailjs
             .send(
-                'YOUR_SERVICE_ID',
-                'YOUR_TEMPLATE_ID',
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 {
                     name: formData.name,
                     email: formData.email,
                     subject: formData.subject,
                     description: formData.description,
                 },
-                'YOUR_PUBLIC_KEY'
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             )
             .then(() => {
                 toast('✔️ Message Sent!');

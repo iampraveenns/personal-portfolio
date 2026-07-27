@@ -11,7 +11,7 @@ import Certificate6 from './cards/Certificate-cards/Certificate6'
 const Certifcates = () => {
   return (
     <section id='certificates'>
-        <h2 className="text-3xl font-bold text-white text-center mb-2 underline decoration-blue-500 underline-offset-8">Achievements & Certifications</h2>
+        <h2 className="text-3xl font-bold text-white text-center mb-2 underline decoration-blue-500 underline-offset-8">Certifications</h2>
       <p className="text-white/40 text-center text-sm mt-3 mb-12">Certifcates and Rewards got during the Academics & Co-curricular activities</p>
 
       <div className='flex flex-wrap align-center justify-center gap-20 m-15'>

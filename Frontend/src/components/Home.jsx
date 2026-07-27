@@ -9,7 +9,7 @@ import MediaButtons from './buttons/mediabtn'
 const Home = () => {
     return (
         <section id='home'>
-            <div className='flex flex-row gap-10 justify-center space-ar mx-auto items-center mt-30 p-10 w-[80%] lg:w-[80%]'>
+            <div className='flex  gap-10 justify-center space-ar mx-auto items-center mt-30 p-10 w-[80%] lg:w-[80%]'>
                 <div className='m-10 '>
                     <p className='font-bold pl-1 m-2'>Hi, i'm</p>
                     <h1 className='text-5xl font-bold m-2'>Praveen S</h1>

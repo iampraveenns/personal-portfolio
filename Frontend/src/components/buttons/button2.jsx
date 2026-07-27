@@ -4,9 +4,11 @@ import styled from 'styled-components';
 const Button = () => {
   return (
     <StyledWrapper>
-      <button className="button">
-        Contact Me
-      </button>
+      <a href="#contact">
+        <button className="button">
+          Contact Me
+        </button>
+      </a>
     </StyledWrapper>
   );
 }

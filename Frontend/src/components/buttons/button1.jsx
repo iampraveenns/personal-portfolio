@@ -1,5 +1,6 @@
 import React from 'react';
 import confetti from 'canvas-confetti';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Button = () => {
   const handleClick = () => {
@@ -38,6 +39,7 @@ const Button = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    toast.success("Downloaded Successfully!")
   };
 
   return (
