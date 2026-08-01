@@ -53,7 +53,7 @@ const SkillCard = ({ name, icon }) => {
 
 export function MarqueeDemo() {
     return (
-        <div className="relative flex my-[2rem] w-[90%] lg:w-[60%] mx-auto flex-col items-center justify-center overflow-hidden">
+        <div className="relative flex my-[2rem] w-[90%] lg:w-[80%] mx-auto flex-col items-center justify-around overflow-hidden">
             <h2 className="text-3xl font-bold text-white text-center mb-2 underline decoration-blue-500 underline-offset-8">
                 Technical Skills
             </h2>

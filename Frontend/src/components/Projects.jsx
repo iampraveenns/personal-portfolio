@@ -3,6 +3,7 @@ import Project1 from './cards/projects-card/Project1'
 import Project2 from './cards/projects-card/Project2'
 import Project3 from './cards/projects-card/Project3'
 import Project4 from './cards/projects-card/Project4'
+import Project5 from './cards/projects-card/Project5'
 
 const Projects = () => {
     return (
@@ -18,6 +19,7 @@ const Projects = () => {
                 <Project2 />
                 <Project3 />
                 <Project4 />
+                <Project5 />
             </div>
         </section>
     )

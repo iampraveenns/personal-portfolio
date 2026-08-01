@@ -19,13 +19,13 @@ export function Component() {
       <CardHeader>
         <CardTitle>X-Clone Application</CardTitle>
         <CardDescription>
-          •	Developed a full-stack social media application using React.js, Node.js, Express.js, and MongoDB
+          🔹Developed a full-stack social media application using React.js, Node.js, Express.js, and MongoDB
           <br /><br />
-          •	Built JWT-based auth system with protected routes, refresh token handling, and bcrypt password hashing
+          🔹Built JWT-based auth system with protected routes, refresh token handling, and bcrypt password hashing
           <br /><br />
-          •	Built 8 RESTful API endpoints for full CRUD operations, secured with JWT middleware
+          🔹Built 8 RESTful API endpoints for full CRUD operations, secured with JWT middleware
           <br /><br />
-          •	Integrated TanStack Query for efficient data fetching and state management
+          🔹Integrated TanStack Query for efficient data fetching and state management
 
         </CardDescription>
       </CardHeader>

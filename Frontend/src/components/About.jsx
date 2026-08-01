@@ -7,9 +7,9 @@ const About = () => {
         <section id='about'>
             <h1 className='m-10 text-3xl text-center font-bold underline decoration-blue-500 underline-offset-8'>About Me</h1>
 
-            <div className='flex gap-15 mt-20 mx-auto text-justify items-center w-[90%] lg:w-[60%]'>
+            <div className='flex gap-15 mt-20 mx-auto text-justify items-center w-[90%] lg:w-[80%]'>
                 <div className='tranform: scale-[1.4] '>
-                    <AboutCard />
+                    {/* <AboutCard /> */}
                 </div>
 
                 <div>

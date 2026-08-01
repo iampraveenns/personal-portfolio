@@ -25,7 +25,7 @@ export function Component() {
           <br /><br />
           🔹 DOM Manipulation — dynamically rendering books, categories, and cart updates
           <br /><br />
-          🔹 Event Handling — building interactive features like add-to-cart and category filters
+          🔹 Event Handling — building interactive features like add-to-cart and dynamic category filters for smoother browsing
         </CardDescription>
       </CardHeader>
       <CardContent>

@@ -15,27 +15,26 @@ import image1 from "../../../assets/profile-img.png"
 
 export function Component() {
   return (
-    <Card className="relative w-[350px] h-auto overflow-hidden hover:cursor-auto hover:scale-[102%] transition-all duration-[1s]">
+    <Card className="relative w-87.5 h-full overflow-hidden hover:cursor-auto hover:scale-[102%] transition-all duration-1000">
       <CardHeader>
-        <CardTitle>Personal Notes App</CardTitle>
+        <CardTitle>Movie Finder – Frontend</CardTitle>
         <CardDescription>
-          🔹Built a full-stack notes application using React.js, Node.js, Express.js, and MongoDB Atlas
+          🔹Working with APIs and handling API integration
           <br /><br />
-          🔹Built 6-endpoint REST API handling ~500 req/day with Redis rate limiting (100 req/15 min window)
+          🔹Fetching and managing real-time data
           <br /><br />
-          🔹Integrated Upstash Redis rate limiting (sliding-window algorithm) to protect API from abuse
+          🔹Improving frontend development skills using HTML, CSS, and JavaScript
           <br /><br />
-          🔹Deployed frontend and backend as independent, scalable services on Netlify and Render for production use
-
+          🔹Designed a responsive UI with an animated expanding search bar and smooth hover-based transition effects
         </CardDescription>
       </CardHeader>
       <CardContent>
       </CardContent>
-      <CardFooter className="flex justify-between">
-        <a href="https://remaindme.netlify.app/">
+      <CardFooter className="flex justify-between ">
+        <a href="https://moodfinder.netlify.app/">
           <Button variant="outline">Live Demo</Button>
         </a>
-        <a href="https://github.com/iampraveenns/Todo_List">
+        <a href="https://github.com/iampraveenns/MovieFinder">
           <Button>GitHub</Button>
         </a>
       </CardFooter>

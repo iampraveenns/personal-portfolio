@@ -52,11 +52,12 @@ const StyledWrapper = styled.div`
 
   .example-2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 20px;
     align-items: center;
   }
   .example-2 .icon-content {
-    margin: 0 10px;
+    margin-right: 10px;
     position: relative;
   }
   .example-2 .icon-content .tooltip {

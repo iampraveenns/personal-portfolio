@@ -17,24 +17,23 @@ export function Component() {
   return (
     <Card className="relative w-[350px] h-auto overflow-hidden hover:cursor-auto hover:scale-[102%] transition-all duration-[1s]">
       <CardHeader>
-        <CardTitle>MovieFinder 🎬</CardTitle>
+        <CardTitle>Weather Tracker - Frontend</CardTitle>
         <CardDescription>
-          • Working with APIs and handling API integration
+
+          🔹Built a weather lookup app using vanilla HTML, CSS, and JavaScript, fetching real-time data from the OpenWeatherMap API
           <br /><br />
-          • Fetching and managing real-time data
+          🔹Implemented async city search with the native HTML5 search input event, displaying temperature, pressure, and humidity for any location entered
           <br /><br />
-          • Improving frontend development skills using HTML, CSS, and JavaScript
-          <br /><br />
-          • Deploying a live project successfully
+          🔹Handled invalid/not-found city inputs gracefully with clear user-facing error messaging
         </CardDescription>
       </CardHeader>
       <CardContent>
       </CardContent>
       <CardFooter className="flex justify-between">
-        <a href="https://moodfinder.netlify.app/">
-          <Button variant="outline">Live Demo</Button>
+        <a href="#">
+          <Button variant="outline" className="border-2 border-red-600" >Not Available</Button>
         </a>
-        <a href="https://github.com/iampraveenns/MovieFinder">
+        <a href="https://github.com/iampraveenns/WeatherFinder">
           <Button>GitHub</Button>
         </a>
       </CardFooter>
