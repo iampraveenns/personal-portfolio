@@ -10,6 +10,7 @@ import { MarqueeDemo } from './components/Techskills.jsx'
 import Projects from './components/Projects.jsx'
 import Certifcates from './components/Certifcates.jsx'
 import Contact from './components/Contact.jsx'
+import { Analytics } from '@vercel/analytics/react'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         pauseOnHover
         theme="light"
       />
+      <Analytics />
     </div>
   )
 }
