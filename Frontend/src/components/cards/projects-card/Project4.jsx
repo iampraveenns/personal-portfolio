@@ -30,8 +30,8 @@ export function Component() {
       <CardContent>
       </CardContent>
       <CardFooter className="flex justify-between">
-        <a href="#">
-          <Button variant="outline" className="border-2 border-red-600" >Not Available</Button>
+        <a href="#" onClick={(e) => e.preventDefault()} aria-disabled="true" tabIndex={-1}>
+          <Button variant="outline" className="border-2 border-red-600 cursor-not-allowed" >Not Available</Button>
         </a>
         <a href="https://github.com/iampraveenns/WeatherFinder">
           <Button>GitHub</Button>
